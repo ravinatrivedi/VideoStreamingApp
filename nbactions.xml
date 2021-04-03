@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-CLEAN</actionName>
+            <displayName>CLEAN</displayName>
+            <goals>
+                <goal>clean</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-PACKAGE</actionName>
+            <displayName>PACKAGE</displayName>
+            <goals>
+                <goal>package</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-THORNTAIL RUN</actionName>
+            <displayName>THORNTAIL RUN</displayName>
+            <goals>
+                <goal>thorntail</goal>
+                <goal>run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-RUN</actionName>
+            <displayName>RUN</displayName>
+            <goals>
+                <goal>run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-thorntail runner</actionName>
+            <displayName>thorntail runner</displayName>
+            <goals>
+                <goal>thorntail</goal>
+                <goal>runner</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-thorntail:run</actionName>
+            <displayName>thorntail:run</displayName>
+            <goals>
+                <goal>thorntail:run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-mvn oracle</actionName>
+            <displayName>mvn oracle</displayName>
+            <goals>
+                <goal>mvn</goal>
+                <goal>install:install-file</goal>
+                <goal>-Dfile=path/to/your/ojdbc7.jar</goal>
+                <goal>-DgroupId=com.oracle</goal>
+                <goal>-DartifactId=ojdbc7</goal>
+                <goal>-Dversion=12.2.0.1</goal>
+                <goal>-Dpackaging=jar</goal>
+            </goals>
+        </action>
+    </actions>

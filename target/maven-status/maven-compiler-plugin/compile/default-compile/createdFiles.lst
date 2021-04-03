@@ -1,0 +1,13 @@
+com\mycompany\assignment1soapservice\exceptions\IllegalOrphanException.class
+com\mycompany\assignment1soapservice\exceptions\NonexistentEntityException.class
+services\CategoryCRUD.class
+com\mycompany\assignment1soapservice\entities\Category.class
+com\mycompany\assignment1soapservice\CategoryJpaController.class
+com\mycompany\assignment1soapservice\exceptions\PreexistingEntityException.class
+com\mycompany\assignment1soapservice\entities\Shows.class
+services\TypeCRUD.class
+handler\ShowsHandler.class
+com\mycompany\assignment1soapservice\entities\Type.class
+com\mycompany\assignment1soapservice\TypeJpaController.class
+com\mycompany\assignment1soapservice\ShowsJpaController.class
+services\ShowCRUD.class
